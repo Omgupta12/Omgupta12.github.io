@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0feddd6e.css",
-    "main.js": "/static/js/main.7d192939.js",
+    "main.js": "/static/js/main.8593969d.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.3bb0471789d741ae6378.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.eaaf45f696e63f6a3e4e.png",
@@ -13,10 +13,10 @@
     "static/media/eduImgBlack.svg": "/static/media/eduImgBlack.b19a68bae8147b437e5d96afcc8aadff.svg",
     "index.html": "/index.html",
     "main.0feddd6e.css.map": "/static/css/main.0feddd6e.css.map",
-    "main.7d192939.js.map": "/static/js/main.7d192939.js.map"
+    "main.8593969d.js.map": "/static/js/main.8593969d.js.map"
   },
   "entrypoints": [
     "static/css/main.0feddd6e.css",
-    "static/js/main.7d192939.js"
+    "static/js/main.8593969d.js"
   ]
 }
