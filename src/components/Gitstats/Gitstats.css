@@ -1,0 +1,30 @@
+
+@media (min-width:210px) and (max-width: 800px) {
+    .gitstat-status{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding: 10px;
+        gap: 1rem;
+        box-sizing: border-box;  
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gitstat-heading{
+        /* border: 1px solid red; */
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width:800px) and (max-width: 1600px) {
+    .gitstat-status{
+     
+    margin-top: 2rem;
+ 
+
+    
+        
+    }
+}
