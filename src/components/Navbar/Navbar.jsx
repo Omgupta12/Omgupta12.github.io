@@ -18,13 +18,28 @@ export const Navbar = () => {
     }
     setShowNavList(!showNavList);
   };
+
+
+  const handleResume = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <>
-      <nav className="center_nav">
-        <ul
-          style={{ display: showNavList ? "flex" : null }}
+      <nav className="center_nav" >
+        <ul 
+          style={{display: showNavList ? "flex" : null }}
           className="nav__list"
+          
         >
+            <button
+          type="button"
+          onClick={toggleNavList}
+          className="btn btn--icon nav__hamburger"
+          aria-label="toggle navigation"
+        >
+          {showNavList ? <CloseIcon /> : <MenuIcon />}
+        </button>
           <li className="nav__list-item">
             <a
               href="#home"
@@ -75,11 +90,11 @@ export const Navbar = () => {
               href={resume}
               onClick={toggleNavList}
               className="link link--nav"
-              download='resume'
+              download='Om Prakash Gupta - Resume'
               target="_blank"
               rel="noreferrer"
             >
-              Resume
+             <button onClick={()=>handleResume("https://drive.google.com/file/d/17aOU7PZ4E19E43B-SqMDW9R6VYQY6Gnt/view?usp=sharing")}>Resume</button>
             </a>
           </li>
         </ul>

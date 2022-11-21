@@ -28,10 +28,11 @@ export default function App() {
       </section>
       <main style={{ marginTop:"13%", backgroundColor: "transparent"}}>
         <About />
+        {/* <Techstacks/> */}
         <Github />
         <Gitstats/>
         <Education/>
-        {/* <Techstacks/> */}
+      
         <section id="#projects">
           <Projects />
         </section>

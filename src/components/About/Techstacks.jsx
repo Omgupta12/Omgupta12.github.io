@@ -9,7 +9,8 @@ import {
   SiRedis,
   SiTailwindcss,
   SiNetlify,
-  SiPostman
+  SiPostman,
+  SiChakraui,
 } from "react-icons/si";
 
 import { DiCss3, DiMongodb } from "react-icons/di";
@@ -21,7 +22,7 @@ import { BsBootstrap } from "react-icons/bs";
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
+      <div className="section main" data-aos="fade-right" style={{marginTop:"4rem"}}>
         <h2 className="section__title different">Tech Stack & Tools</h2>
         <div className="techsection">
           <div>
@@ -58,6 +59,11 @@ export const Techstacks = () => {
             <SiRedux />
             <h5>Redux</h5>
           </div>
+
+          <div>
+            <SiChakraui />
+            <h5>Chakra Ui</h5>
+          </div> 
 
           <div>
             <SiMaterialui />
