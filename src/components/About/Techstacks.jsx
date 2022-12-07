@@ -22,7 +22,7 @@ import { BsBootstrap } from "react-icons/bs";
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right" style={{marginTop:"4rem"}}>
+      <div className="section main techstack" data-aos="fade-right">
         <h2 className="section__title different">Tech Stack & Tools</h2>
         <div className="techsection">
           <div>

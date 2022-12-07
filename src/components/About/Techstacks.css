@@ -1,11 +1,15 @@
 .main {
-  margin-top: 4em;
+  margin-top: 7em;
+  /* border: 1px solid red; */
+  height: fit-content;
 }
 .techsection {
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
   height: 50vh;
+  margin-top: 1em;
+  /* border: 1px solid red; */
   /* max-height: 400px; */
 }
 
@@ -23,6 +27,7 @@
   justify-content: center;
   align-items: center;
   transition: all 0.5s ease 0s;
+  
 }
 .techsection > div:hover {
   background-color: var(--clr-bg);
@@ -44,14 +49,21 @@
   top: 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .techsection {
-    height: 120vh;
+    /* height: fit-content; */
+    margin-bottom: 8%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+
   }
   .techsection > div {
-    width: 40%;
-    margin-right: 5%;
+    box-sizing: border-box;
+    width: 20%;
+    /* margin-right: 5%; */
     margin-bottom: 2%;
-    height: 18vh;
+    height: 12vh;
+    /* border: 1px solid red; */
   }
+
 }

@@ -40,22 +40,42 @@ export const Projects = () => {
               <p>
                 Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids.
 
-                <p style={{ color: " #80618c", marginTop: "30px", marginBottom: "-10px" }}>Tech Stack</p>
+                <p style={{ color: "#80618c", marginTop: "30px" }}>Tech Stack</p>
 
               </p>
 
-              <div>
-                < SiMongodb />
-                <SiExpress />
-                <FaReact />
-                < SiNodedotjs />
-                <SiJavascript />
-                <SiChakraui />
-                <SiHtml5 />
-                <SiCss3 />
+              <div className="projects_techsection">
 
+                <div>
+                  <SiExpress />
+                  <h5>Express</h5>
+                </div>
+
+                <div>
+                  <SiNodedotjs />
+                  <h5>Node JS</h5>
+                </div>
+                <div>
+                  <FaReact />
+                  <h5>React JS</h5>
+                </div>
+               
+                <div>
+                  <SiChakraui />
+                  <h5>Chakra UI</h5>
+                </div>
+                <div>
+                  <SiHtml5 />
+                  <h5>HTML</h5>
+                </div>
+
+                <div>
+                  <SiCss3 />
+                  <h5>CSS</h5>
+                </div>
 
               </div>
+
               <div>
                 <a
                   href="https://fusion-strom.vercel.app/"
@@ -99,11 +119,23 @@ export const Projects = () => {
 
               </p>
 
-              <div>
-                <SiJavascript />
-                <SiHtml5 />
-                <SiCss3 />
+              <div className="projects_techsection">
+                <div>
+                  <SiJavascript />
+                  <h5>JavaScript</h5>
+                </div>
+                <div>
+                  <SiHtml5 />
+                  <h5>HTML</h5>
+                </div>
+
+                <div>
+                  <SiCss3 />
+                  <h5>CSS</h5>
+                </div>
+
               </div>
+
               <div>
                 <a
                   href="https://dulcet-brigadeiros-75a972.netlify.app/"
@@ -145,13 +177,33 @@ export const Projects = () => {
 
                 <p style={{ color: " #80618c", marginTop: "15px", marginBottom: "-5px" }}>Tech Stack</p>
               </p>
-              <div>
-                <FaReact />
-                <SiJavascript />
-                <SiChakraui />
-                <SiHtml5 />
-                <SiCss3 />
+
+              <div className="projects_techsection">
+                <div>
+                  <FaReact />
+                  <h5>React JS</h5>
+                </div>
+                <div>
+                  <SiJavascript />
+                  <h5>JavaScript</h5>
+                </div>
+                <div>
+                  <SiChakraui />
+                  <h5>Chakra UI</h5>
+                </div>
+                <div>
+                  <SiHtml5 />
+                  <h5>HTML</h5>
+                </div>
+
+                <div>
+                  <SiCss3 />
+                  <h5>CSS</h5>
+                </div>
+
               </div>
+
+
               <div>
                 <a
                   href="https://bluefy-clone.vercel.app/"
@@ -193,13 +245,32 @@ export const Projects = () => {
 
                 <p style={{ color: " #80618c", marginTop: "20px", marginBottom: "-5px" }}>Tech Stack</p>
               </p>
-              <div>
-                <FaReact />
-                <SiJavascript />
-                <SiChakraui />
-                <SiHtml5 />
-                <SiCss3 />
+
+              <div className="projects_techsection">
+                <div>
+                  <FaReact />
+                  <h5>React JS</h5>
+                </div>
+                <div>
+                  <SiJavascript />
+                  <h5>JavaScript</h5>
+                </div>
+                <div>
+                  <SiChakraui />
+                  <h5>Chakra UI</h5>
+                </div>
+                <div>
+                  <SiHtml5 />
+                  <h5>HTML</h5>
+                </div>
+
+                <div>
+                  <SiCss3 />
+                  <h5>CSS</h5>
+                </div>
+
               </div>
+
               <div>
                 <a
                   href="https://can-table-5382-omgupta12.vercel.app/"

@@ -20,10 +20,12 @@
 }
 
 .about__desc {
-  font-size: 1rem;
-  max-width: 70%;
-  /* font-family: 'Courier New', Courier, monospace; */
-  font-family:'Poppins', sans-serif
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 80%;
+  font-size: 1.2em;
+  /* margin-top: 0.8em; */
+  line-height: 1.8em;
 }
 
 .about__desc,

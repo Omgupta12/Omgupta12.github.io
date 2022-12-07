@@ -20,7 +20,7 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src={om} alt="Images" />
+              <img src={om} alt="om" />
             </div>
             <div className="introduction_datacontainer">
               <h4>

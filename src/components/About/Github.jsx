@@ -18,17 +18,19 @@ export const Github = () => {
 
   return (
     <>
-      <div className={"section " + themename} data-aos="fade-right">
+      <div data-aos="fade-right" style={{marginTop:"1rem"}} >
         <h2 className="section__title different">
           Days I <span className="different"> Code</span>
         </h2>
+        <div  style={{ border: "3px solid var(--clr-primary)",borderRadius:"1rem",padding:"1rem"}}>
         <Githubcalendar
           username="Omgupta12"
           blockSize={15}
           blockMargin={5}
          color={ "#80618c"}
-          fontSize={16}
+          fontSize={12}
         />
+        </div>
       </div>
     </>
   );

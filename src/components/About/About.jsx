@@ -17,8 +17,9 @@ export const About = () => {
          <span className="about__hi"> Hi, I am </span>
           <span className="about__name">Om Prakash Gupta</span>
         </h1>
-        <Type />
-        <p className="about__desc" data-aos="fade-right" style={{"fontFamily":"'Poppins', sans-serif"}}>
+        {/* <Type /> */}
+        <span data-aos="fade-right" >Full Stack Developer</span>
+        <p className="about__desc" data-aos="fade-right" >
           A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
           help me build the best possible product.

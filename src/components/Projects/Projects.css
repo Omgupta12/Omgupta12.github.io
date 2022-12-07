@@ -1,7 +1,63 @@
 .projects_container {
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* border: 1px solid green; */
+}
+.projects_techsection {
+  width: 110%;
+  text-align: center;
+  /* background-color: var(--clr-bg); */
+  /* height:fit-content; */
+  /* margin-top: 1em; */
+  /* border: 1px solid black; */
+  /* max-height: 400px; */
+}
+
+.projects_techsection > div {
+  width: 5%;
+  height: 16vh;
+  max-height: 140px;
+  /* box-shadow: var(--shadow); */
+  z-index: 1;
+  border-radius: 20px;
+  margin: 2.5%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+}
+/* .techsection > div:hover {
+  background-color: var(--clr-bg);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--clr-primary);
+} */
+
+.projects_techsection > div > svg {
+  /* height: 50%;
+  width: 50%; */
+  font-size: 4vh;
+  color: var(--clr-primary);
+}
+.projects_techsection > div > h5 {
+  position: relative;
+  top: 8px;
+}
+
+@media (max-width: 600px) {
+  .techsection {
+    height: 120vh;
+  }
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
 }
 
 .project {
@@ -13,7 +69,7 @@
   flex-direction: row-reverse;
   border-radius: 30px;
   transition: all 0.5s ease 0s;
-  /* border: 1px solid red; */
+ border: 3px solid var(--clr-primary);
 }
 .project:hover {
   transform: scale(1.04);
@@ -33,19 +89,19 @@
 .project_videocontainer > div {
   width: 90%;
   height: 90%;
-  border: 6px solid var(--clr-primary);
-  border-radius: 30px;
+  /* border: 3px solid var(--clr-primary); */
+  /* border-radius: 0px; */
   /* border: 1px solid red;  */
 }
 .project_videocontainer > div > img {
   width: 100%;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 15px;
   
 }
 
 .project_information {
-  flex-basis: 35%;
+  flex-basis: 50%;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -53,6 +109,7 @@
   padding: 0% 3% 4% 3%;
   overflow-y: scroll;
   overflow-x: hidden;
+    /* border: 1px solid red;  */
 }
 .project_information > h2 {
   margin-top: 1em;
@@ -96,14 +153,24 @@
 
 @media (max-width: 600px) {
   .project {
-    flex-direction: column;
+    flex-direction:column-reverse
     /* height: 100vh; */
   }
   .project_videocontainer {
     flex-basis: 40%;
+    margin-bottom: 1rem;
     /* border: 1px solid green; */
   }
   .project_information {
     flex-basis: 60%;
+  }
+  .projects_techsection > div > h5{
+    font-size: 12px;
+  }
+}
+
+@media (min-width:600px) and (max-width: 900px) {
+  .projects_techsection > div > h5{
+    font-size: 12px;
   }
 }
