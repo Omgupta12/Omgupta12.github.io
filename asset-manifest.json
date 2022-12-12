@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0eba8b11.css",
-    "main.js": "/static/js/main.5d077ac6.js",
+    "main.css": "/static/css/main.7714301d.css",
+    "main.js": "/static/js/main.c524f520.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.3bb0471789d741ae6378.png",
     "static/media/Bluefly.png": "/static/media/Bluefly.eaaf45f696e63f6a3e4e.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.cc78b75330131d870f3a.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.76b2507e270084edb119.png",
     "static/media/Om_Gupta-Resume.pdf": "/static/media/Om_Gupta-Resume.75eafebd1fbd440e38e8.pdf",
-    "static/media/Om.jpeg": "/static/media/Om.41173f0f412c2166a7ed.jpeg",
+    "static/media/Om1.jpeg": "/static/media/Om1.8d6af9a9c53ba2b68446.jpeg",
     "static/media/eduPurple.svg": "/static/media/eduPurple.0d11a0cff65ab3186caf25ab256f0a37.svg",
     "static/media/eduImgBlack.svg": "/static/media/eduImgBlack.b19a68bae8147b437e5d96afcc8aadff.svg",
     "index.html": "/index.html",
-    "main.0eba8b11.css.map": "/static/css/main.0eba8b11.css.map",
-    "main.5d077ac6.js.map": "/static/js/main.5d077ac6.js.map"
+    "main.7714301d.css.map": "/static/css/main.7714301d.css.map",
+    "main.c524f520.js.map": "/static/js/main.c524f520.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eba8b11.css",
-    "static/js/main.5d077ac6.js"
+    "static/css/main.7714301d.css",
+    "static/js/main.c524f520.js"
   ]
 }
