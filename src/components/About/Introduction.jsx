@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css";
-import om from "../../Assets/images/Om.jpeg";
+import om from "../../Assets/images/Om1.jpeg";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import resume from "../../Assets/pdf/Om_Gupta-Resume.pdf";
