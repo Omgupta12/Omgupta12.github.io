@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css";
-import om from "../../Assets/images/Om1.jpeg";
+import om from "../../Assets/images/myphoto1.jpg";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import resume from "../../Assets/pdf/Om_Gupta-Resume.pdf";
@@ -20,7 +20,7 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src={om} alt="om" />
+              <img src={om} className="introduction_img" alt="om" />
             </div>
             <div className="introduction_datacontainer">
               <h4>

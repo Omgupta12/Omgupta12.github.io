@@ -14,6 +14,8 @@ import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
 import Gitstats from "./components/Gitstats/Gitstats"
 import Education from "./components/Education/Education";
 
+
+
 export default function App() {
 
   const [{ themename }] = React.useContext(ThemeContext);

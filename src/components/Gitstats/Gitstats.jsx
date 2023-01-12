@@ -11,8 +11,8 @@ const Gitstats = () => {
 
       <div className="gitstat-status" >
         <img  src="https://streak-stats.demolab.com/?user=Omgupta12&theme=buefy)" />
-        <img  alt="Omgupta12stats"
-          src="https://github-readme-stats.vercel.app/api?username=Omgupta12&show_icons=true&theme=algolia&count_private=true" />
+        <img 
+          src="https://github-stats-alpha.vercel.app/api?username=Omgupta12&show_icons=true&theme=algolia&count_private=true" />
       </div>
     </div>
   )
