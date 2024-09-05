@@ -25,16 +25,10 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi, I am <span className="different">Om Prakash Gupta </span>{" "}
-                from <span className="different">Raebareli, Uttar Pradesh.</span>
-                I am a B.Tech graduate in EEE, and I love to exploring new
-                technologies in the field of Web Development and always try to
-                adapt to it. I believe in the concept of continuous learning by
-                regularly upgrading my skills and enhancing my knowledge. I have
-                learned MERN stack, Data Structures Algorithms, and soft skills
-                at Masai School. As a developer, my hunger for learning has
-                drastically increased. And I want to centralize my skills and
-                learning for enhancement of an organization and more of it, to
-                enhance my career."
+                from <span className="different">Raebareli, Uttar Pradesh. </span>
+               I’m a B.Tech graduate in Electrical and Electronics Engineering with 1.6 years of experience as a Full-Stack Developer at LM Exchange. My expertise lies in the MERN stack, including MongoDB, Express.js, React.js, and Node.js.
+
+I’m passionate about web development and continuously learning new technologies to stay updated. My goal is to apply my skills to contribute to a dynamic organization and drive innovative solutions.
               </h4>
               <h4>Some of my interests apart form Coding :</h4>
               <h4 className="different">
