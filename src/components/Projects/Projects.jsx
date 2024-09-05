@@ -111,7 +111,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>FusionStrom </h2>
+              <h2>FusionStrom</h2>
               <p>
                 FusionStrom is a leading fashion retailer offering compelling
                 clothing, shoes and accessories for men, women and kids.
@@ -177,7 +177,7 @@ export const Projects = () => {
 
         {/* 3rd project */}
 
-        <div className="projects_container">
+        {/* <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -244,7 +244,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* 4th project */}
 
@@ -256,7 +256,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Gymwolf Clone</h2>
+              <h2>Gymwolf</h2>
               <p>
                 Gymwolf is a workout tracking tool. Add workouts, create our own
                 customized workout plans or find suitable plan. Accomplish our
@@ -331,7 +331,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Pluralsight Clone</h2>
+              <h2>Pluralsight</h2>
               <p>
                 Pluralsight is an Ed-tech website, It provides video courses for
                 corporate professionals.

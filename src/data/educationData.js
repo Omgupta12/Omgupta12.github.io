@@ -4,7 +4,7 @@ export const educationData = [
         institution: 'Masai School',
         course: 'Full-Stack Web Devlopment',
         startYear: 'Jan 2022',
-        endYear: 'Present'
+        endYear: 'Feb 2023'
     },
     {
         id: 2,

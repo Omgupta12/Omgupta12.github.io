@@ -18,7 +18,7 @@ export const Github = () => {
 
   return (
     <>
-      <div data-aos="fade-right" style={{marginTop:"1rem"}} >
+      {/* <div data-aos="fade-right" style={{marginTop:"1rem"}} >
         <h2 className="section__title different">
           Days I <span className="different"> Code</span>
         </h2>
@@ -31,7 +31,7 @@ export const Github = () => {
           fontSize={12}
         />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
