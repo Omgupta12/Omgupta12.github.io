@@ -3,7 +3,7 @@ import "./Introduction.css";
 import om from "../../Assets/images/MyPhoto1.jpg";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import resume from "../../Assets/pdf/Om_Prakash_Gupta-Resume.pdf";
+import resume from "../../Assets/pdf/Om_Prakash_Gupta_Resume.pdf";
 
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
