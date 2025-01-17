@@ -25,10 +25,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi, I am <span className="different">Om Prakash Gupta </span>{" "}
-                from <span className="different">Raebareli, Uttar Pradesh. </span>
-               I’m a B.Tech graduate in Electrical and Electronics Engineering with 1.6 years of experience as a Full-Stack Developer at LM Exchange. My expertise lies in the MERN stack, including MongoDB, Express.js, React.js, and Node.js.
-
-I’m passionate about web development and continuously learning new technologies to stay updated. My goal is to apply my skills to contribute to a dynamic organization and drive innovative solutions.
+                I am a Full Stack Developer with 2+ years of experience specializing in the MERN stack and modern web technologies like Next.js, Redux, and Tailwind CSS. I excel at designing and developing scalable, user-focused applications, delivering high-quality solutions that meet business needs. Passionate about problem-solving and innovation, I stay updated with the latest technologies to ensure optimal performance and usability in every project. I aim to leverage my skills and expertise to drive impactful results in dynamic and forward-thinking organizations.
               </h4>
               <h4>Some of my interests apart form Coding :</h4>
               <h4 className="different">
@@ -50,7 +47,7 @@ I’m passionate about web development and continuously learning new technologie
                 <a
                   href={resume}
                   // onClick={toggleNavList}
-                  // className="link link--nav"
+                  // className="link link--nav" 
                   download="Om Prakash Gupta - Resume"
                   target="_blank"
                   rel="noreferrer"
@@ -59,7 +56,7 @@ I’m passionate about web development and continuously learning new technologie
                     style={{ backgroundColor: " #80618c", color: "white" }}
                     onClick={() =>
                       handleresume(
-                        "https://drive.google.com/file/d/17aOU7PZ4E19E43B-SqMDW9R6VYQY6Gnt/view?usp=sharing"
+                        "https://drive.google.com/file/d/1nxUp7gb7IJLntpU_093hPnQMJYkdZPcU/view?usp=sharin"
                       )
                     }
                   >

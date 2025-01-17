@@ -11,9 +11,12 @@ import {
   SiNetlify,
   SiPostman,
   SiChakraui,
+  SiPostgresql,
+  SiNextdotjs,
+  SiTypescript
 } from "react-icons/si";
 
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiCss3, DiMongodb, DiMysql } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
@@ -39,44 +42,41 @@ export const Techstacks = () => {
           </div>
           <div>
             <FaReact />
-            <h5>React</h5>
+            <h5>React.js</h5>
+          </div>
+          <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+          <div>
+            <SiNextdotjs />
+            <h5>Next.js</h5>
+          </div>
+          <div>
+            <SiTypescript />
+            <h5>TypeScript</h5>
           </div>
           <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5>Node.js</h5>
+          </div>
+          <div>
+            <SiExpress />
+            <h5>Express.js</h5>
           </div>
           <div>
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
-
           <div>
-            <SiExpress />
-            <h5>Express</h5>
-          </div>
-
-          <div>
-            <SiRedux />
-            <h5>Redux</h5>
-          </div>
-
-          <div>
-            <SiChakraui />
-            <h5>Chakra Ui</h5>
-          </div> 
-
-          <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
-          </div>        
-          <div>
-            <VscGithub />
-            <h5>Github</h5>
+            <SiPostgresql />
+            <h5>PostgreSQL</h5>
           </div>
           <div>
-            <SiPostman />
-            <h5>Postman</h5>
+            <SiTailwindcss />
+            <h5>Tailwind CSS</h5>
           </div>
+         
         </div>
       </div>
     </>
