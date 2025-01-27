@@ -94,7 +94,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-             <button onClick={()=>handleResume("https://drive.google.com/file/d/1nxUp7gb7IJLntpU_093hPnQMJYkdZPcU/view?usp=sharing")}>Resume</button>
+             <button onClick={()=>handleResume("https://drive.google.com/file/d/1jRCTmBRqmMjeamcwhvCV3vl7-ewe0xa4/view?usp=sharing")}>Resume</button>
             </a>
           </li>
         </ul>
