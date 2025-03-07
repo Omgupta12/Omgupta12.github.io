@@ -25,7 +25,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi, I am <span className="different">Om Prakash Gupta </span>{" "}
-                I am a Full Stack Developer with 2+ years of experience specializing in the MERN stack and modern web technologies like Next.js, Redux, and Tailwind CSS. I excel at designing and developing scalable, user-focused applications, delivering high-quality solutions that meet business needs. Passionate about problem-solving and innovation, I stay updated with the latest technologies to ensure optimal performance and usability in every project. I aim to leverage my skills and expertise to drive impactful results in dynamic and forward-thinking organizations.
+                I am a Full Stack Developer with 2 years of experience specializing in the MERN stack and modern web technologies like Next.js, Redux, and Tailwind CSS. I excel at designing and developing scalable, user-focused applications, delivering high-quality solutions that meet business needs. Passionate about problem-solving and innovation, I stay updated with the latest technologies to ensure optimal performance and usability in every project. I aim to leverage my skills and expertise to drive impactful results in dynamic and forward-thinking organizations.
               </h4>
               <h4>Some of my interests apart form Coding :</h4>
               <h4 className="different">
