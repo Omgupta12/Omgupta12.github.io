@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.85347d59.css",
-    "main.js": "/static/js/main.4a3cc642.js",
+    "main.js": "/static/js/main.518a58dd.js",
     "static/media/Bluefly-2.png": "/static/media/Bluefly-2.038acf5e41e18686a94a.png",
     "static/media/Gymwolf.png": "/static/media/Gymwolf.3bb0471789d741ae6378.png",
-    "static/media/Bluefly.png": "/static/media/Bluefly.eaaf45f696e63f6a3e4e.png",
+    "static/media/Forever.png": "/static/media/Forever.485ff43feed6fe8c664d.png",
     "static/media/Pluralsight.png": "/static/media/Pluralsight.cc78b75330131d870f3a.png",
     "static/media/TimeTracker.png": "/static/media/TimeTracker.0bb217cc198ffec89681.png",
     "static/media/Om_Prakash_Gupta_Resume.pdf": "/static/media/Om_Prakash_Gupta_Resume.aafebc3d57d22eaf43f2.pdf",
@@ -14,10 +14,10 @@
     "static/media/eduImgBlack.svg": "/static/media/eduImgBlack.8ee2e691e27f81b89b1aa08acc85cfe6.svg",
     "index.html": "/index.html",
     "main.85347d59.css.map": "/static/css/main.85347d59.css.map",
-    "main.4a3cc642.js.map": "/static/js/main.4a3cc642.js.map"
+    "main.518a58dd.js.map": "/static/js/main.518a58dd.js.map"
   },
   "entrypoints": [
     "static/css/main.85347d59.css",
-    "static/js/main.4a3cc642.js"
+    "static/js/main.518a58dd.js"
   ]
 }
