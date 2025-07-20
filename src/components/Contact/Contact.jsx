@@ -4,7 +4,6 @@ import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { ThemeContext } from "../../Context/theme";
-import { Twitter } from "@material-ui/icons";
 
 import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
@@ -20,7 +19,7 @@ export const Contact = () => {
 
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
-            href="https://www.linkedin.com/in/om-prakash-gupta-43885b1b7/"
+            href="https://www.linkedin.com/in/om-gupta-coding/"
             target="_blank"
             rel="noreferrer"
           >

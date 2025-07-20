@@ -53,7 +53,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/om-prakash-gupta-43885b1b7/"
+            href="https://www.linkedin.com/in/om-gupta-coding/"
             aria-label="github"
             className="link link--icon"
             target="_blank"

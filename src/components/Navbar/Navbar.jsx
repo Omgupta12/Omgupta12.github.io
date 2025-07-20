@@ -5,7 +5,7 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../../Assets/pdf/Om_Prakash_Gupta_Resume.pdf"
+import resume from "../../Assets/pdf/OmPrakash_Resume.pdf"
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -90,11 +90,11 @@ export const Navbar = () => {
               href={resume}
               onClick={toggleNavList}
               className="link link--nav"
-              download='Om Prakash Gupta - Resume'
+              download='OmPrakashGupta_Resume'
               target="_blank"
               rel="noreferrer"
             >
-             <button onClick={()=>handleResume("https://drive.google.com/file/d/1jRCTmBRqmMjeamcwhvCV3vl7-ewe0xa4/view?usp=sharing")}>Resume</button>
+             <button onClick={()=>handleResume("https://drive.google.com/file/d/15Nt5GTtzlfbSkqpO6RjQDQtNOL7ebP1b/view?usp=sharing")}>Resume</button>
             </a>
           </li>
         </ul>

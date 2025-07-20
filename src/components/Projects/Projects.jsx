@@ -325,7 +325,7 @@ export const Projects = () => {
 
         {/* 5th project */}
 
-        <div className="projects_container">
+        {/* <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -386,7 +386,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
